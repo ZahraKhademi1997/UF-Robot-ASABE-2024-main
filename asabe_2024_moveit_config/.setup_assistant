@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: asabe_2024
+    relative_path: src/description/robot_description_arm.urdf
+  srdf:
+    relative_path: config/robot_arm.srdf
+  package_settings:
+    author_name: Haoyuan Xu
+    author_email: haoyuan.xu@ufl.edu
+    generated_timestamp: 1713897685
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
