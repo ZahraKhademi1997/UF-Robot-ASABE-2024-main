@@ -1,8 +1,12 @@
 # Installing Label Studion
 `python3 -m venv env`
+
 `source env/bin/activate`
+
 `sudo apt install python3.9-dev`
+
 `python -m pip install label-studio`
+
 
 # Run it 
 `label-studio start`
