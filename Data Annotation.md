@@ -8,15 +8,21 @@
 `label-studio start`
 
 # Create the xml file 
-`
-<View>
-  <Image name="img" value="$image"/>
-  <PolygonLabels name="labels" toName="img">
-    <Label value="Healthy Leaf" background="green"/>
-    <Label value="Unhealthy Leaf" background="lightgreen"/>
-    <Label value="Flower" background="white"/>
-  </PolygonLabels>
-</View>
+`<View>`
+
+  `<Image name="img" value="$image"/>`
+  
+  `<PolygonLabels name="labels" toName="img">`
+  
+    `<Label value="Healthy Leaf" background="green"/>`
+    
+    `<Label value="Unhealthy Leaf" background="lightgreen"/>`
+    
+    `<Label value="Flower" background="white"/>`
+    
+  `</PolygonLabels>`
+  
+`</View>
 `
 
 # Create project folder
