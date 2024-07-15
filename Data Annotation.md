@@ -1,4 +1,4 @@
-# Installing Label Studion
+# Installing Label Studio
 `python3 -m venv env`
 
 `source env/bin/activate`
